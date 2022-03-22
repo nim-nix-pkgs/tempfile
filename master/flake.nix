@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-tempfile-master.flake = false;
+  inputs.src-tempfile-master.ref   = "refs/heads/master";
   inputs.src-tempfile-master.owner = "OpenSystemsLab";
-  inputs.src-tempfile-master.ref   = "master";
   inputs.src-tempfile-master.repo  = "tempfile.nim";
   inputs.src-tempfile-master.type  = "github";
   
