@@ -11,6 +11,7 @@
   inputs.src-tempfile-master.ref   = "refs/heads/master";
   inputs.src-tempfile-master.owner = "OpenSystemsLab";
   inputs.src-tempfile-master.repo  = "tempfile.nim";
+  inputs.src-tempfile-master.dir   = "";
   inputs.src-tempfile-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

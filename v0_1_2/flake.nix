@@ -11,6 +11,7 @@
   inputs.src-tempfile-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-tempfile-v0_1_2.owner = "OpenSystemsLab";
   inputs.src-tempfile-v0_1_2.repo  = "tempfile.nim";
+  inputs.src-tempfile-v0_1_2.dir   = "";
   inputs.src-tempfile-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
